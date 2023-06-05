@@ -1,5 +1,5 @@
-# react in vue
-A multi react and vue remote app implementation using [originjs/vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) that attempts to not require react to be a dependency of the vue host (but its also not working as expected)
+# react in vue & vue in react
+A multi react/vue and react/vue remote app implementation using [originjs/vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) this also attempts to not require react to be a dependency of the vue host
 
 Also has a shared store state using xoid.
 

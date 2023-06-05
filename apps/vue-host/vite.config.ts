@@ -10,8 +10,8 @@ export default defineConfig({
       name: 'host',
       filename: 'remoteEntry.js',
       remotes: {
-        reactRemoteOne: 'http://localhost:7002/assets/remoteEntry.js',
-        reactRemoteTwo: 'http://localhost:7001/assets/remoteEntry.js',
+        reactRemoteOne: 'http://localhost:7001/assets/remoteEntry.js',
+        reactRemoteTwo: 'http://localhost:7002/assets/remoteEntry.js',
         vueRemoteOne: 'http://localhost:7004/assets/remoteEntry.js',
         vueRemoteTwo: 'http://localhost:7005/assets/remoteEntry.js',
       },
