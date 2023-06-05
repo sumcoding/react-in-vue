@@ -6,7 +6,7 @@ const app = await import("reactRemoteTwo/bootstrap");
 const id = 'random-id-two';
 onMounted(() => {
   const element = document.getElementById(id);
-  app.default.mount(element);
+  app.default.mount(element, { title: 'Remote Bootstrap' });
 })
 </script>
 

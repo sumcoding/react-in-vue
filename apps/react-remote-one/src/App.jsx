@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { lang } from "store/xoid";
 import "./App.css"
 
-const App = () => {
+const App = ({ title = 'Bootstrapped' }) => {
   const [useLangXoid, setUseLangXoid] = useState(lang.value);
  useEffect(() => {
     //Your code here
@@ -13,7 +13,7 @@ const App = () => {
   
   return (
     <div className='remote-one'>
-      <h2>🥳 React Remote one </h2>
+      <h2>🥳 React Remote one {title}</h2>
       xoid: {useLangXoid}
     </div>
   )

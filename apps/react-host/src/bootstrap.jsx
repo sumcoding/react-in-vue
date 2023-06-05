@@ -1,9 +1,9 @@
 import App from "./App";
 import { createRoot } from "react-dom/client";
 
-const mount = (el, args = {}, identifierPrefix = 'react-app-one') => {
+const mount = (el, identifierPrefix = 'react-host') => {
   const root = createRoot(el, { identifierPrefix })
-  root.render(<App {...args}/>);
+  root.render(<App />);
 }
 
 export { mount }

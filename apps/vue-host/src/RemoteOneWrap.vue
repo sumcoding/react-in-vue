@@ -6,7 +6,7 @@ const app = await import("reactRemoteOne/bootstrap");
 const id = 'random-id-one';
 onMounted(() => {
   const element = document.getElementById(id);
-  app.default.mount(element);
+  app.default.mount(element, { title: 'Remote Bootstrap' });
 })
 </script>
 
