@@ -3,7 +3,8 @@ A more in depth example that does not require react to be a dependency of the vu
 
 Also has a shared store state using xoid.
 
-### Commands
+### Start Project
+`pnpm install`
 `pnpm serve` to serve all
 `http://localhost:7000/` is the vue host
 

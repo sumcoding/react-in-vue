@@ -28,16 +28,5 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
-    // rollupOptions: {
-    //   // Externalize deps that shouldn't be bundled into the library
-    //   external: ["react"],
-    //   output: {
-    //     // Provide global variables to use in the UMD build
-    //     // for externalized deps
-    //     globals: {
-    //       react: "React",
-    //     },
-    //   },
-    // }
   }
 })

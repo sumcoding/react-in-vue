@@ -17,13 +17,6 @@ export default defineConfig({
         './bootstrap': './src/bootstrap.jsx'
       },
       shared: ['react', 'react-dom']
-      // shared: {
-      //   react: {
-      //     generate: false,
-      //     version: '^18.2.0',
-      //     requiredVersion: '^18.2.0',
-      //   }, 'react-dom': {}
-      // }
     })
   ],
   build: {
@@ -35,16 +28,5 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
-    // rollupOptions: {
-    //   // Externalize deps that shouldn't be bundled into the library
-    //   external: ["react", "react-dom"],
-    //   output: {
-    //     // Provide global variables to use in the UMD build
-    //     // for externalized deps
-    //     globals: {
-    //       react: "React",
-    //     },
-    //   },
-    // }
   }
 })
