@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "serve": "turbo run serve",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "create:app": "pnpm create vite --template vue-ts"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "@config/eslint": "workspace:*",
+    "prettier": "^2.5.1",
+    "turbo": "latest",
+    "vite": "^4.3.9"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "pnpm": {
+    "overrides": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "vue": "^3.3.4",
+      "@originjs/vite-plugin-federation": "^1.2.3",
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.3.9"
+    }
+  }
+}

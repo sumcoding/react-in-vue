@@ -1,0 +1,19 @@
+{
+  "name": "@vue/remote-one",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --port 7004 --strictPort",
+    "build": "vite build",
+    "serve": "vite preview --port 7004 --strictPort"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "latest",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.62.1",
+    "vite": "^4.3.9"
+  }
+}

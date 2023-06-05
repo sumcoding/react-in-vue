@@ -1,0 +1,20 @@
+{
+  "client_id": "rmEUAFtKMeV4x1ido24qkfoXGOrmKQr1",
+  "domain": "auth.sbox-protect.jamfcloud.com",
+  "region": "us-east-1",
+  "public_graphql_url": "https://sj4min4oljhuvpkupjcl7kef4m.appsync-api.us-east-1.amazonaws.com/graphql",
+  "primary_graphql_url": "https://gxcyjrvd4javbdt5xyreoukhwe.appsync-api.us-east-1.amazonaws.com/graphql",
+  "admin_graphql_url": "https://2qfzkq7bfvglzhm3pve6yp3v2e.appsync-api.us-east-1.amazonaws.com/graphql",
+  "audience": "jpt-use1",
+  "connections": [
+    {
+      "name": "JamfID",
+      "button": "jamf_button"
+    },
+    {
+      "name": "JamfOkta",
+      "button": "okta_button"
+    }
+  ],
+  "tenant": "use1-jamfadmin"
+}
