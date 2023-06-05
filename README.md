@@ -1,5 +1,5 @@
 # react in vue
-A more in depth example that does not require react to be a dependency of the vue host (but its also not working as expected)
+A multi react and vue remote app implementation using [originjs/vite-plugin-federation](https://github.com/originjs/vite-plugin-federation) that attempts to not require react to be a dependency of the vue host (but its also not working as expected)
 
 Also has a shared store state using xoid.
 
@@ -12,8 +12,5 @@ Also has a shared store state using xoid.
 ### Apps and Packages
 
 - `apps`: remotes and host to test with
-- `packages/config`: shared `eslint`, `ts` and `vite` configurations
-
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `packages/config`: shared `eslint`, and `ts` configurations
 
